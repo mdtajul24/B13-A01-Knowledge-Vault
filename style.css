@@ -1,3 +1,5 @@
+
+/* ============Universal Section=============== */
 *{
     margin: 0;
     padding: 0;
@@ -256,10 +258,68 @@ h6{
     color: #001931;
     font-size: 16px;
 }
-/* Second brain Section */
+/* ==============Second brain Section============== */
 
+.brain{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
 
-/* Footer Section style */
+    padding: 20px;
+}
+
+.left-side{
+    flex: 1 1 calc(50% - 1rem);
+}
+
+.right-side{
+    flex: 1 1 calc(50% - 1rem);
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+
+    padding-left: 1rem;
+}
+
+.right-side p{
+    color: #469165;
+    font-size: 16px;
+}
+
+.right-side ul{
+    list-style-image: url(./assets/CheckCircle.png);
+}
+
+/* ==============Early access section=========== */
+
+.early-access{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.early-box{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    width: 90%;
+    padding: 80px 50px;
+    background-color: #F7F6F2;
+}
+
+.early-box h1{
+    font-size: 40px;
+    color: #001931;
+}
+/* ===============Footer Section style============= */
 
 .footer-section{
     display: flex;
