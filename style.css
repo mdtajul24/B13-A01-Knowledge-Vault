@@ -17,6 +17,11 @@
     cursor: pointer;
 }
 
+.btn:hover{
+    background-color: #FFFFFF;
+    color: #469165;
+    box-shadow: 0 0 10px #469165;
+}
 
 /*=================Main Part style===========*/
 
