@@ -3,8 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    background-color: aquamarine;
-    height: 100px;
-    width: 300px;
+/*=============Common style======================*/
+
+/*==============Button style======================*/
+.btn{
+    background-color: #469165;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 14px 18px;
+    cursor: pointer;
 }
+
+
+/*=================Main Part style===========*/
+
+/*=============navbar style===================*/
+.header{
+    width: 100vw;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 16px 120px;
+}
+
+.img{
+    min-width: 140px;
+    min-height: 60x;
+    cursor: pointer;
+}
+
+.nav-menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+
+    list-style: none;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.nav-menu li a:hover{
+    text-shadow: 0 0 15px rgb(97, 97, 255);
+}
+
